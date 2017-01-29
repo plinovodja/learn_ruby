@@ -18,6 +18,6 @@ class Timer
   	minutes = "0" + minutes.to_s if minutes.to_s.length == 1
   	secs = (number % 3600) % 60
   	secs = "0" + secs.to_s if secs.to_s.length == 1
-  	"#{hours}:#{minutes}:#{secs}"  
+  	"#{hours} :  #{minutes} : #{secs}"  
   end
 end

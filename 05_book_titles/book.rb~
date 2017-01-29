@@ -10,7 +10,7 @@ class Book
 	    book_name.split.each do |word|
 	      word.capitalize! unless small_words.include?(word) 
 	      new_name << word	
-	      new_name.first.capitalize!    
+	      new_name.first.capitalize    
 	    end
 	  
 	  @title = new_name.join(" ")

@@ -28,3 +28,12 @@ def translate (string)
   
 end
 
+
+#if wovels.include?(word[0])
+#     word += "ay"
+#   elsif !wovels.include?(word[0]) && !wovels.include?(word[1])
+#     slajs = word.slice!(0..1)
+#     word = word + slajs + "ay"	
+#   elsif !wovels.include?(word[0])
+#     word = word.reverse + "ay"
+#   end

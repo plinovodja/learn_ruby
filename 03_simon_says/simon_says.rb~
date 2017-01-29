@@ -23,7 +23,7 @@ end
 
 def titleize (sentence)
 	arr = sentence.split
-	small = ["the", "and", "over"]
+	small = ["the", "and"]
 	arr.each {|x| x.capitalize! unless small.include?(x)}
 	arr.first.capitalize!
 	arr.join(" ")
